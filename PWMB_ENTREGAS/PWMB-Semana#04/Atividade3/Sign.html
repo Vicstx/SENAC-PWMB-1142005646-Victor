@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Control</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastre-se</h1>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Dados de Cadastro</h2>
+            <form>
+                <label for="email">Informe seu email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="senha">Crie uma senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="confirmar-senha">Repita a senha:</label>
+                <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+            </form>
+        </section>
+
+        <section>
+            <h2>Dados da Universidade/Escola</h2>
+            <form>
+                <label for="universidade">Sua universidade/escola:</label>
+                <input type="text" id="universidade" name="universidade">
+
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" name="curso">
+
+                <label for="tipoMensalidade">Escolha o tipo de mensalidade:</label>
+                <select id="tipoMensalidade" name="tipoMensalidade">
+                    <option value="mensal">Mensal</option>
+                    <option value="anual">Anual</option>
+                </select>
+
+            </form>
+        </section>
+    </main>
+
+    <button>Cadastrar</button>
+
+    <footer>
+        <p>&copy;Campus Control 2023 todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
